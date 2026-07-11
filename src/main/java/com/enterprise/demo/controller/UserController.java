@@ -3,11 +3,11 @@ package com.enterprise.demo.controller;
 import com.enterprise.demo.model.User;
 import com.enterprise.demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.RequestMapping;
-import org.springframework.web.bind.RestController;
-import org.springframework.web.bind.GetMapping;
-import org.springframework.web.bind.PostMapping;
-import org.springframework.web.bind.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
