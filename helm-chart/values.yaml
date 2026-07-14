@@ -1,0 +1,13 @@
+replicaCount: 2
+
+image:
+  # This points to our local registry from Phase 6
+  repository: localhost:8082/java-webapp
+  # We set a default, but Jenkins will override this dynamically
+  tag: "latest" 
+
+service:
+  # Using NodePort so we can easily access it on our local laptop browser
+  type: NodePort
+  port: 8080
+  nodePort: 30080
