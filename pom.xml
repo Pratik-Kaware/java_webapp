@@ -18,6 +18,8 @@
     
     <properties>
         <java.version>17</java.version>
+        <!-- Force Maven to use a patched version of Tomcat to resolve Trivy CRITICAL CVEs -->
+        <tomcat.version>10.1.35</tomcat.version>
     </properties>
     
     <dependencies>
