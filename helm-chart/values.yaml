@@ -1,8 +1,7 @@
 replicaCount: 2
 
 image:
-  # This points to our local registry from Phase 6
-  repository: localhost:8082/java-webapp
+  repository: localhost:5000/java-webapp
   # We set a default, but Jenkins will override this dynamically
   tag: "latest" 
 
